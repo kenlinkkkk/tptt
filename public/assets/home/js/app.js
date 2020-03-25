@@ -6,10 +6,16 @@ $(document).ready(function () {
    $(".tilt").tilt();
 
    $(window).scroll(function () {
+      var x = screen.width;
+
       if ($(this).scrollTop() > 200) {
          $("#navbar nav").addClass("nav-bg");
       } else {
          $("#navbar nav").removeClass("nav-bg");
+      }
+
+      if (x < 768 && $(this).scrollTop() > 0) {
+         $("#navbar nav").addClass("nav-bg");
       }
    });
 

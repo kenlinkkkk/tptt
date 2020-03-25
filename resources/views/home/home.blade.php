@@ -8,7 +8,7 @@
             <div class="container">
                 <div  class="row pt-3">
                     <div class="col-md-6">
-                        <img src="{{ asset('assets/home/images/phone-left.png') }}" class="img-fluid tilt">
+                        <img src="{{ asset('assets/home/images/phone-left.png') }}" class="img-fluid hidden tilt">
                     </div>
                     <div class="col-md-6 intro-text pt-5">
                         <h1 class="intro-text__top">TRỞ THÀNH</h1>

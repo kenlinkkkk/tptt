@@ -54,7 +54,7 @@
 }
 
 .nav-item__custom a {
-    color: #ffda7c;
+    color: #ffda7c !important;
     font-weight: 600;
     margin: 2px;
     min-width: 100px;
@@ -71,7 +71,23 @@
 .intro-text {
     color: #ffda7c;
 }
+@media (max-width: 767px) {
+    .intro-text .intro-text__top {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 300;
+    }
 
+    .intro-text .intro-text__bottom {
+        text-align: center;
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
 .intro-text .intro-text__top {
     font-size: 90px;
     font-weight: 300;
