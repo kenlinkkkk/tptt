@@ -84,6 +84,15 @@
         font-weight: 700;
     }
 
+    .title-hd {
+        padding-top: 30px;
+        font-weight: 800;
+        text-align: center;
+        background: linear-gradient(-65deg, #ffe57f 0%, #ffab00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .hidden {
         display: none;
     }
@@ -121,7 +130,7 @@
 
 .intro-button .btn{
     margin-left: 20px;
-    min-width: 180px;
+    min-width: 155px;
 }
 
 .intro-button .intro-button__custom {

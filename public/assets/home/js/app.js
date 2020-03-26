@@ -3,7 +3,10 @@ $(document).ready(function () {
       history.replaceState ("", document.title, e.originalEvent.oldURL);
    });
 
-   $(".tilt").tilt();
+   $(".tilt").tilt({
+      glare: true,
+      maxGlare: .5
+   });
 
    $(window).scroll(function () {
       var x = screen.width;

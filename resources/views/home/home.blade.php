@@ -139,7 +139,7 @@
                 </div>
                 <div class="row alert-content">
                     <div class="col-md-6 col-sm-12">
-                        <div class="card alert-content__custom shadow">
+                        <div class="card alert-content__custom shadow tilt">
                             <div class="card-title">
                                 <img src="{{ asset('assets/home/images/noti.png') }}" class="img-fluid">
                             </div>
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 sol-sm-12">
-                        <div class="card alert-content__custom shadow">
+                        <div class="card alert-content__custom shadow tilt">
                             <div class="card-title">
                                 <img src="{{ asset('assets/home/images/alarm.png') }}" class="img-fluid">
                             </div>
