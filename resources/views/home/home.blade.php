@@ -57,6 +57,8 @@
                                         <input type="hidden" name="pkg" value="Q">
                                         <input type="submit" class="btn-custom gradient-button gradient-button__Q" value="Đăng ký">
                                     </form>
+                                @else
+                                    <a class="btn-custom gradient-button gradient-button__Q" href="sms:1009&body=DK%20Q" id="regQ">Đăng ký</a>
                                 @endif
                             </div>
                         </div>
@@ -80,6 +82,8 @@
                                         <input type="hidden" name="pkg" value="TP">
                                         <input type="submit" class="btn-custom gradient-button gradient-button__TP" value="Đăng ký">
                                     </form>
+                                @else
+                                    <a class="btn-custom gradient-button gradient-button__TP" href="sms:1009&body=DK%20TP" id="regTP">Đăng ký</a>
                                 @endif
                             </div>
                         </div>
@@ -185,4 +189,5 @@
 @endsection
 
 @section('script')
+
 @endsection

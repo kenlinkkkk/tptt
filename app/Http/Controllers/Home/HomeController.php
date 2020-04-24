@@ -33,7 +33,6 @@ class HomeController extends Controller
         $circle = 1;
         $custom_care = '19000105';
         $price_custom_care = '1000';
-//        $msisdn = '0902178830';
         $back_url = route('index');
 
         $data_raw = $trans_id .'&'. $package_code .'&'. $free_circle .'&'. $price .'&'. $circle .'&'. $custom_care .'&'. $price_custom_care .'&'. $back_url;
