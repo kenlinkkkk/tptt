@@ -10,8 +10,7 @@ $(document).ready(function () {
 
    $(window).scroll(function () {
       var x = screen.width;
-
-      if ($(this).scrollTop() > 200) {
+      if ($(this).scrollTop() > 0) {
          $("#navbar nav").addClass("nav-bg");
       } else {
          $("#navbar nav").removeClass("nav-bg");

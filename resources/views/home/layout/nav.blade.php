@@ -7,6 +7,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item nav-item__custom">
+                    <a class="nav-link" href="{{ route('index') }}">Trang chủ</a>
+                </li>
+                <li class="nav-item nav-item__custom">
                     <a class="nav-link" href="#intro">Giới thiệu</a>
                 </li>
                 <li class="nav-item nav-item__custom">

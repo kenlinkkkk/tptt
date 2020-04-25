@@ -17,6 +17,11 @@ class HomeController extends Controller
         return view('home.home');
     }
 
+    public function policy()
+    {
+        return view('home.policy');
+    }
+
     public function registerPackage(Request $request)
     {
         Log::info('LOG::registerPackage::BEGIN');
