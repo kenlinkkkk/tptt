@@ -1,5 +1,8 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-light">
     <div class="container">
+        <a class="navbar-brand" href="{{ route('index') }}">
+            <img src="{{ asset('assets/home/images/logo.png') }}" alt="logo" style="width: 80px; height: auto">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
